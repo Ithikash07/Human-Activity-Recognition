@@ -1,9 +1,10 @@
 # Human-Activity-Recognition
 
-##Project Overview:
+Project Overview:
+
 Developed a comprehensive multi-person human activity recognition (HAR) system capable of detecting and classifying human actions in complex, crowded videos. The system fuses state-of-the-art detection, tracking, and video classification methods for robust performance in real-world scenarios.
 
-##Core Components and Technologies:
+Core Components and Technologies:
 
 Action Recognition Backbone:
 Initially employed TensorFlow’s MoviNet, a cutting-edge, efficient video classification model tailored for spatiotemporal feature learning, achieving high accuracy on the UCF101 dataset. Further exploration included fine-tuning or complementary architectures based on EfficientNet with temporal convolutions or LSTM layers for enhanced temporal modeling.
@@ -23,6 +24,6 @@ Constructed temporal clips from tracked bounding boxes by cropping and resizing,
 Visualization and Interface:
 Designed a real-time or offline video processing pipeline visualized through a Streamlit app, displaying detected persons, tracked IDs, and predicted actions with confidence metrics overlayed on video frames.
 
-##Technologies Involved:
+Technologies Involved:
 
 TensorFlow (MoviNet, EfficientNet), YOLOv8 (Ultralytics), ByteTrack, OpenCV, Streamlit, UCF101 Dataset.
