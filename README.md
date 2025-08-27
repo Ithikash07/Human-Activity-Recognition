@@ -27,3 +27,14 @@ Designed a real-time or offline video processing pipeline visualized through a S
 Technologies Involved:
 
 TensorFlow (MoviNet, EfficientNet), YOLOv8 (Ultralytics), ByteTrack, OpenCV, Streamlit, UCF101 Dataset.
+
+#Dataset Description
+
+1.The official UCF101 dataset download page to use for the full dataset is provided by the Center for Research in Computer Vision (CRCV) at the University of Central Florida:
+Official UCF101 Dataset Page:
+https://www.crcv.ucf.edu/data/UCF101.php
+This page offers the full original videos, annotations, and train/test splits directly from the dataset creators. It is the authoritative source for the complete UCF101 dataset.
+
+2.UCF101 Dataset on Kaggle:
+https://www.kaggle.com/datasets/matthewjansen/ucf101-action-recognition
+This Kaggle dataset hosts the UCF101 videos and can be downloaded after signing in to Kaggle.
